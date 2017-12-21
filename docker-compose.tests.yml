@@ -1,5 +1,5 @@
 redis:
-  # NOTE: leave ${VERSION_TAG} as is - it is used exclusively by the Jenkins build pipeline
+  # NOTE: leave ${IMAGE_TAG} as is - it is used exclusively by the Jenkins build pipeline
   image: ${IMAGE_TAG}
   ports:
     - "6379:6379"
