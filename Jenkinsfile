@@ -1,1 +1,1 @@
-build(env.JOB_NAME)
+build()
